@@ -6,12 +6,16 @@ I would save each previous result's link to some variable like list or string, s
 
 
 
+
+
 Question:     - What file format would you use to store this data?
 
 
 Answer:       I would prefer to use CSV(Comma Separated Values) file format.CSV is one of the most common file formats for storing textual data.
 These files can be opened using a wide variety of programs including Notepad. The reason behind using this format over others is its ability to store complex data in a simple and readable way.
 Moreover, CSV files offer more security as compared to file formats like JSON. In python, it is easy to read these types of files using a special library called Pandas.
+
+
 
 
 
