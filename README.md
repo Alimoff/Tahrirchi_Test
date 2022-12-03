@@ -14,7 +14,7 @@ Answer:       I would automate the process using CRON tool. Because, Cron helps 
 "0 0 * * 0" - once a week etc.
 
 The main logic is - 
-I would save each previous result's link to some variable like list or string, so as not to write again previous information I would compare old links to new ones. After comparison I would clear the list or sting for append with the new ones. Each time it'll work perfectly.
+I would save each previous result's link variable to some variable like list or string, so as not to write again previous information I would compare old links to new ones. After comparison I would clear the list or sting for append with the new ones. Each time it'll work perfectly.
 
 
 
