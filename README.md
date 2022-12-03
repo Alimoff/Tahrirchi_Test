@@ -3,10 +3,15 @@ Question:     - How would you automate this process so that we can get new datas
 
 Answer:       I would automate the process using CRON tool. Because, Cron helps a server run smoothly.It has it's own special parameters to set timer. Some of them: 
 "* * * * 1-5" -  	once every day of the week,
+
 "* * * * *" - once a minute,
+
 "0 * * * *" - once an hour,
+
 "0 0 * * *" - once a day,
+
 "0 0 * * 0" - once a week etc.
+
 The main logic is - 
 I would save each previous result's link to some variable like list or string, so as not to write again previous information I would compare old links to new ones. After comparison I would clear the list or sting for append with the new ones. Each time it'll work perfectly.
 
