@@ -2,6 +2,7 @@ Question:     - How would you automate this process so that we can get new datas
 
 
 Answer:       I would automate the process using CRON tool. Because, Cron helps a server run smoothly.It has it's own special parameters to set timer. Some of them: 
+
 "* * * * 1-5" -  	once every day of the week,
 
 "* * * * *" - once a minute,
