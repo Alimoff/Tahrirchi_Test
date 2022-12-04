@@ -33,4 +33,6 @@ for news in news_:
 
 columns = ["Link", "Time",  "Content", "Words", "Most occured words"]  #Columns for dataset 
 df = pd.DataFrame(data=info, columns=columns)
-df.to_csv('news.csv') # Wrote to CSV file
+df.to_csv('news.csv') # Write to CSV file
+
+
