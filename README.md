@@ -7,7 +7,7 @@ I would use Cron. You can use Cron any time you want to automate something, like
 
 First step- 
 
-Cron helps a server run smoothly and works perfectly.It has it's own special parameters to set timer. Some of them: 
+It has it's own special parameters to set timer. Some of them: 
 
 "* * * * 1-5" -  	once every day of the week,
 
