@@ -1,7 +1,13 @@
 Question:     - How would you automate this process so that we can get new datasets every day?
 
 
-Answer:       I would automate the process using CRON tool. Because, Cron helps a server run smoothly.It has it's own special parameters to set timer. Some of them: 
+Answer:   
+
+I would use Cron. You can use Cron any time you want to automate something, like an OS job or a Python script. Needless to say, but an automated Python script can do basically anything.
+
+First step- 
+
+Cron helps a server run smoothly and works perfectly.It has it's own special parameters to set timer. Some of them: 
 
 "* * * * 1-5" -  	once every day of the week,
 
@@ -9,12 +15,13 @@ Answer:       I would automate the process using CRON tool. Because, Cron helps 
 
 "0 * * * *" - once an hour,
 
-"0 0 * * *" - once a day,
+"0 0 * * *" - once a day at 0:00,
 
 "0 0 * * 0" - once a week etc.
 
-The main logic is - 
-I would save each previous result's link variable to some variable like list or string, so as not to write again previous information I would compare old links to new ones. After comparison I would clear the list or sting for append with the new ones. Each time it'll work perfectly.
+Second step -
+
+I would compare each new link with old ones when it starts scrapping in every time.I think it will work perfectly.
 
 
 
